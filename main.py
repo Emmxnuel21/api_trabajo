@@ -21,7 +21,7 @@ class Post(BaseModel):
 
 @app.get('/')
 def read_root():
-    return {"message": "Hola mundo, esta es mi api! Emanuel Orellana Carla Mejias Cristopher"}
+    return {"message": "Hola mundo, esta es mi api! Emanuel Orellana Carla Mejias Cristopher Garces"}
 
 @app.get('/posts')
 def get_posts():
